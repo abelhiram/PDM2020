@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.practica08.MainActivity">
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:text="Segunda"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="5dp" />
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn1"
+        android:layout_alignParentTop="true"
+        android:minHeight="60dip"
+        android:text="Primer Activity"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="90dp" />
+</RelativeLayout>
